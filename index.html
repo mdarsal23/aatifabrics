@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aatif Fabrics</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">Aatif Fabrics</div>
+            <div class="logo">Aatif Fabrics
+
+            </div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About Us</a></li>
@@ -39,7 +42,7 @@
     </section>
 
     <!-- Other sections -->
-     <section id="contact" class="contact-section">
+     <section id="contact" class="contact-section" style="display: none;">
         <h2> Contact Us </h2>
         <p>For any queries or feedback, feel free to reach out to us at:</p>
         <p>Phone: <a href="tel:+8541082499">8541082499</a></p>
@@ -48,5 +51,72 @@
             Aatif Fabrics, Champanagar, Bhagalpur, Bihar</a></p>
         <p> For technical query, contact: <a href="mailto:mdarsal23@iitk.ac.in">mdarsal23</a>
     </section>
+
+    <footer>
+        <div class="footer-container">
+            <!-- Explore Section -->
+            <div class="footer-column">
+                <h3>Explore</h3>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Search</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+
+            <!-- Customer Service -->
+            <div class="footer-column">
+                <h3>Customer Service</h3>
+                <ul>
+                    <li><a href="#">Shipping & Delivery Policy</a></li>
+                    <li><a href="#">Cancellation & Refund Policy</a></li>
+                    <li><a href="#" id="contact-link">Contact Us</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+
+            <!-- Terms -->
+            <div class="footer-column">
+                <h3>Terms</h3>
+                <ul>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Disclaimer Policy</a></li>
+                </ul>
+            </div>
+
+            <!-- About the Store -->
+            <div class="footer-column about-store">
+                <h3>About the Store</h3>
+                <p>We endeavor to blend India’s artistic traditions, hinged with modern functionality and aesthetics. Join us in our journey as we strive to bring the finest woven stories straight out of the looms of India, hand-crafted with love.</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/aatiffabrics23" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram" alt="Instagram"></a>
+                    <!-- <a href="#"><img src="pinterest-icon.png" alt="Pinterest"></a> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        document.getElementById('contact-link').addEventListener('click', function(e) {
+            e.preventDefault();
+            document.getElementById('contact').style.display = 'block';
+            document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
 </body>
 </html>
+*This site is under construction currently:)
+<!-- /* Sarees | Salwar suits | Dress Material */ -->
+
+ <!-- /* block print
+ batik
+ semi tussar
+ cotton sarees
+ pure silk sarees* 
+ linen sarees* 
+ 
+ */ -->
